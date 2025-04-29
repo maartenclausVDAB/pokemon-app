@@ -1,0 +1,125 @@
+img{
+  background-color: lightgray;
+  width: 15rem;
+  object-fit: contain;
+}
+
+.pokemon-nummer{
+  color: gray;
+  font-weight: normal;
+}
+
+.pokemon-types, .pokemon-weakness, .pokemon-abilities{
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.pokemon-types span, .pokemon-weakness span, .pokemon-abilities span{
+  border-radius: 0.25rem;
+  border: darkgray 2px solid;
+  width: 10rem;
+}
+
+.GRASS{
+  background-color: #9bcc50;
+  color: black;
+}
+
+.POISON{
+  background-color: #b97fc9;
+  color: white;
+}
+
+.BUG{
+  background-color: #729F3F;
+  color: white;
+}
+
+.DRAGON{
+  background-color: #F16E57;
+  color: white;
+}
+
+.FAIRY{
+  background-color: #FDB9E9;
+  color: black;
+}
+
+.FIRE{
+  background-color: #FD7D24;
+  color: white;
+}
+
+.GHOST{
+  background-color: #FD7D24;
+  color: white;
+}
+
+.GROUND{
+  background-color: #AB9842;
+  color: black;
+}
+
+.NORMAL{
+  background-color: #A4ACAF;
+  color: black;
+}
+
+.PSYCHIC{
+  background-color: #A4ACAF;
+  color: white;
+}
+
+.STEEL{
+  background-color: #9EB7B8;
+  color: black;
+}
+
+.WATER{
+  background-color: #4592C4;
+  color: white;
+}
+
+.ROCK{
+  background-color: #A38C21;
+  color: white;
+}
+
+.ICE{
+  background-color: #51C4E7;
+  color: black;
+}
+
+.FLYING{
+  background-color: #3DC7EF;
+  color: black;
+}
+
+.FIGHTING{
+  background-color: #D56723;
+  color: white;
+}
+
+.ELECTRIC{
+  background-color: #EED535;
+  color: black;
+}
+
+.DARK{
+  background-color: #707070;
+  color: white;
+}
+
+table.pokemon-stats {
+  width: 25%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table.pokemon-stats td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
